@@ -6,15 +6,16 @@ public class FizzBuzz {
 
         for (int num = 1; num <= 100; num++) {
 
-            if (num % 3 == 0) {
+            if (num % 3 == 0 && num % 5 == 0) {
+                String isMultipleOfThreeAndFive = "FizzBuzz";
+                System.out.println(isMultipleOfThreeAndFive);
+            } else if (num % 3 == 0) {
                 String isMultipleOfThree = "Fizz";
                 System.out.println(isMultipleOfThree);
             } else if (num % 5 == 0) {
-
                 String isMultipleOfFive = "Buzz";
                 System.out.println(isMultipleOfFive);
             } else {
-
                 System.out.println(num);
             }
         }
