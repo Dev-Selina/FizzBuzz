@@ -6,7 +6,13 @@ public class FizzBuzz {
 
         for (int num = 1; num <= 100; num++) {
 
-            System.out.println("Start counting program: " + num);
+            if (num % 3 == 0) {
+                String isMultipleOfThree = "Fizz";
+                System.out.println(isMultipleOfThree);
+            } else {
+
+                System.out.println(num);
+            }
         }
     }
 
