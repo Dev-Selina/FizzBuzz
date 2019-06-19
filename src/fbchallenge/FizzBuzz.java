@@ -9,6 +9,10 @@ public class FizzBuzz {
             if (num % 3 == 0) {
                 String isMultipleOfThree = "Fizz";
                 System.out.println(isMultipleOfThree);
+            } else if (num % 5 == 0) {
+
+                String isMultipleOfFive = "Buzz";
+                System.out.println(isMultipleOfFive);
             } else {
 
                 System.out.println(num);
